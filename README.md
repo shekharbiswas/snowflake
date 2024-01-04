@@ -10,6 +10,8 @@ Popular DWH Cloud solution that has a lot of advantages over a typical DWH.
 - Integrated ML and AI
 - User friendly and easy to use.
 - Modern feature like Time Travel ( also other platforms have this, ex- Google BQ )
+- Efficient use of Cache memory to provide faster results
+- Sclaing DWH easily without much hassle.
 
 # Script
 The script shows a hands on guide for popular commands with snowflake including most of the features mentioend above.
