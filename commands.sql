@@ -3,6 +3,7 @@
 -- create External stage 
 -- load unstructured (JSON) / CSV files into stage from the AWS S3
 -- create database and table
+use database citibike;
 
 create or replace table trips
 (tripduration integer,
