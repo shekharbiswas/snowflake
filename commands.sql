@@ -29,7 +29,7 @@ gender integer);
 
 -- Check how many staging files are there
 -- check stage details
--- now you can list staging file without loading into the table trips
+-- you can list staging files from worksheet
   
 list @citibike_trips;
 
