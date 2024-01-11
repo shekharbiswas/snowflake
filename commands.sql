@@ -22,7 +22,15 @@ usertype string,
 birth_year integer,
 gender integer);
 
+-- Create an External Stage eg AWS
+-- go to database -> public -> create stage
+-- name : citibike_trips
+-- source: s3://snowflake-workshop-lab/citibike-trips-csv/
 
+-- Check how many staging files are there
+-- check stage details
+-- now you can list staging file without loading into the table trips
+  
 list @citibike_trips;
 
 --create file format
